@@ -40,7 +40,8 @@ if __name__ == '__main__':
     if "hello jarvis" in sptext().lower():
         while True:
             data1 = sptext().lower()
-            
+
+            # Giving Commands 
             if 'your name' in data1:
                 name = 'My name is Jarvis'
                 speechtx(name)  
